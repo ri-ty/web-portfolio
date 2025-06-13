@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="hamburger" id="hamburger">&#9776;</div>
+
+    <nav>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#journey">My Journey</a></li>
+            <li><a href="#awards">Awards & Recognitions</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="image-container">
+  <img src="main.jpg" alt="Mr Praveen Tyagi" class="main">
+</div>
+<main>
+
+    
+
+    <div class="social">
+        <a href="https://www.linkedin.com/in/praveen-tyagi-b37ba0194/" target="_blank" rel="noopener noreferrer">
+            <img src="link.jpeg" alt="LinkedIn Profile">
+        </a>
+        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+            <img src="insta.jpeg" alt="Instagram Profile">
+        </a>
+    </div>
+
+    <section id="about" class="section">
+        <h2>About <b>Me</b></h2>
+        <p>
+          I'm Praveen Tyagi, a passionate educator with over <strong>30 years of experience</strong> mentoring India’s brightest minds.
+          As the Founder and Managing Director of <strong>PACE IIT & Medical</strong>, 
+          <strong>I’ve had the privilege of helping thousands of students achieve their dreams of gaining admission into IITs, NITs, AIIMS, 
+          and top global universities like Harvard, MIT, Stanford, Cornell to name a few.</strong>
+        </p><br>
+        <p>
+          I specialize in <strong>Physics and Advanced Mathematics</strong>, known for my structured pedagogy, real-world conceptual teaching, 
+          and commitment to student success.
+        </p><br>
+        <p>
+          Now based in the U.S. for part of the year, I’m looking to extend my support to 
+          <strong>motivated, underrepresented students</strong> through tutoring, mentoring, and test prep support.
+        </p>
+          
+    </section>
+    <section id="Expertise" class="section">
+      <h2>My <b>Expertise</b></h2>
+    
+      <div class="expertise-grid">
+        <img src="phy.jpg" alt="Expertise 1">
+        <img src="math.jpg" alt="Expertise 2">
+        <img src="test.jpg" alt="Expertise 3">
+      </div>
+    </section>
+    
+
+    
+    
+
+    <section id="journey" class="section">
+        <h2>My <b>Journey</b></h2>
+        <p>
+          Mr. Praveen Tyagi, an educationist with a vision to build a harmonious society and one who is empowered by 'Quality Education'
+          is an IIT alumnus, armed with two decades of experience and proficiency. He is an expert in the field of Physics and in preparing
+          the students for various competitive exams. His experience coupled with impactful results of the institute makes him a preferred
+          choice among Engineering and Medical aspirants. Mr Tyagi, in recognition of his contribution to the education industry, has been
+          a recipient to several laurels by IIT Bombay and the CBSE board and appreciation letters from top International Universities such
+          as Stanford, MIT etc. His biography has also been featured in the book 'My Life, My Rules'.
+        </p><br>
+      
+        
+    </section>
+
+    <section id="awards" class="section">
+        <h2>Awards & <b>Recognitions</b></h2>
+        <div class="awards-grid top-grid">
+          <img src="1.jpg" alt="Award 1" onclick="openPopup(this.src)">
+          <img src="2.jpg" alt="Award 2" onclick="openPopup(this.src)">
+          <img src="3.jpg" alt="Award 3" onclick="openPopup(this.src)">
+          <img src="4.jpg" alt="Award 4" onclick="openPopup(this.src)">
+      </div>
+  
+      <div class="awards-grid bottom-grid">
+          <img src="5.jpg" alt="Award 5" onclick="openPopup(this.src)">
+          <img src="6.jpg" alt="Award 6" onclick="openPopup(this.src)">
+          <img src="7.jpg" alt="Award 7" onclick="openPopup(this.src)">
+      </div>
+
+    <div id="popup" class="popup">
+      <span class="close-btn" onclick="closePopup()">&#10005;</span>
+      <img id="popup-img" src="" alt="Popup Image">
+    </div>
+    </section>
+  
+    <section id="contact" class="section">
+      <h2>Contact <b>Me</b></h2>
+      
+      
+    
+      <div class="contact-container">
+        
+        <div class="contact-info">
+          <p><img src="call.jpg" alt="Phone" class="icon"> +91 00000 00000</p>
+          <p><img src="mail.jpg" alt="Email" class="icon"> 
+            <a href="praveen.tyagi@eduisfun.com" target="_blank">praveen.tyagi@eduisfun.com</a>
+          </p>
+          <p><img src="link.jpg" alt="LinkedIn" class="icon"> 
+            <a href="https://www.linkedin.com/username" target="_blank">www.linkedin.com/username</a>
+          </p>
+        </div>
+    
+        <div class="contact-form">
+          <form action="https://formsubmit.co/riyatyagi20007@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="phone" placeholder="Phone Number" required>
+            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+            <button type="submit">SUBMIT</button>
+          </form>
+          
+        </div>
+    
+      </div>
+    </section>
+    
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
