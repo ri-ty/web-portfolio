@@ -308,13 +308,13 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px; /* space between images */
+  gap: 40px; /* space between images */
   flex-wrap: wrap; /* allows wrapping on small screens */
   margin-top: 40px;
 }
 
 .expertise-grid img {
-  width: 230px;  /* adjust size as you want */
+  width: 260px;  /* adjust size as you want */
   height: auto;
   border-radius: 10px; /* optional: rounded corners */
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* optional: shadow effect */
